@@ -1,0 +1,30 @@
+{
+  "name": "cy_demoblaze_e2e_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiandriu94/Cy_Demoblaze_E2E_Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiandriu94/Cy_Demoblaze_E2E_Testing/issues"
+  },
+  "homepage": "https://github.com/javiandriu94/Cy_Demoblaze_E2E_Testing#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "cypress": "^14.5.3",
+    "cypress-real-events": "^1.14.0",
+    "ts-loader": "^9.5.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
