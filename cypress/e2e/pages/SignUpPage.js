@@ -16,6 +16,7 @@ class SignUpPage {
         this.signUp.usernameInput.should('be.visible');
         this.signUp.passwordInput.should('be.visible');
         this.signUp.signUpButton.should('be.visible');
+        cy.wait(500)
 
     }
 

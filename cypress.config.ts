@@ -5,6 +5,7 @@ import { createEsbuildPlugin } from "@badeball/cypress-cucumber-preprocessor/esb
 
 export default defineConfig({
   e2e: {
+    defaultCommandTimeout: 10000,
     baseUrl: "https://www.demoblaze.com/",
     specPattern: "cypress/e2e/features/**/*.feature",
     async setupNodeEvents(

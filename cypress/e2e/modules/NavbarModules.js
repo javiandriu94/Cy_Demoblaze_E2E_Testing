@@ -12,6 +12,14 @@ class NavbarModules{
         return cy.get('#navbarExample #cartur')
     }
 
+    get homeLink () {
+        return cy.get('.active > .nav-link')
+    }
+
+    get logoutLink () {
+        return cy.get('#logout2')
+    }
+
    
 }
 
